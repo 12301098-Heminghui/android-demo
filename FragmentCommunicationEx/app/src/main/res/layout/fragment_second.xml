@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hmh.fragmentcommunicationex.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_fragment2"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/fragment2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:textSize="30dp"
+        android:gravity="fill_horizontal|center_horizontal"
+        android:layout_gravity="right|center_vertical" />
+
+</FrameLayout>
